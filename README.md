@@ -9,7 +9,7 @@ double divide(double a, double b);
 int main() {
     double num1, num2, result;
     char operator;
-
+    printf("hi!);
     printf("Simple Calculator\n");
     printf("Enter an operation in the format: number1 operator number2\n");
     printf("For example: 5.5 + 3.2\n");
