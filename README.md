@@ -10,13 +10,9 @@ int main() {
     double num1, num2, result;
     char operator;
 
-    printf("Simple Calculator\n");
-    printf("Enter an operation in the format: number1 operator number2\n");
-    printf("For example: 5.5 + 3.2\n");
-
     // User input
     printf("Enter your calculation: ");
-    if (scanf("%lf %c %lf", &num1, &operator, &num2) != 3) {
+    if (scanf("%f %c %f", &num1, &operator, &num2) != 3) {
         printf("Invalid input. Please follow the format: number1 operator number2\n");
         return 1;
     }
